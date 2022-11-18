@@ -1,0 +1,42 @@
+@import "./_channels";
+
+.loading-container {
+    .p-progress-spinner {
+        display: block;
+        padding: 200px 0;
+    }
+}
+
+.setup-content {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    // * {
+    //     font-weight: 300;
+    //     font-variation-settings: "wght" 300;
+    // }
+
+    .p-dropdown,
+    .p-multiselect,
+    .p-inputtext {
+        height: 22px;
+        line-height: 7px;
+        border-color: #979797 !important;
+    }
+
+    .pi-question-circle {
+        color: rgba(0, 0, 0, 0.25);
+        transform: scale(1.2);
+    }
+
+    .field {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin-bottom: 2px;
+            padding-left: 5px;
+        }
+    }
+}

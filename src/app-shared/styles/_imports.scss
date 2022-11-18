@@ -1,0 +1,45 @@
+@import 'annum/variables';
+
+//TODO: align with colors from 'annum/variables'
+//Colors (Names derived from https://www.htmlcsscolor.com/)
+$black: #0e0e0e; //annumplanning.com logo marks
+$dim-gray: #646464; //annumplanning.com body copy
+$eclipse: #373737; //annumplanning.com heading copy
+$white-smoke: #efefef; //annumplanning.com light gray backgrounds
+$nobel: #999999;
+$dim-gray: #707070;
+$night-rider: #333333;
+
+//TODO: use #F9F9F9 for subtle bkg grays (i.e. ViewHEader)
+
+//Colors for tactic events on calendar views
+$tacticColorDefault: #CCDD1E;
+$tacticColorDefaultBkg: #E3ED79;
+$tacticColorSubscription: #999999;
+$tacticColorSubscriptionBkg: #FCFCFC;
+$tacticColorInitiatives: #5E7C8B;
+$tacticColorInitiativesBkg: #A3B7C1;
+$tacticColorWebsite: #EB1460;
+$tacticColorWebsiteBkg: #F3739F;
+$tacticColorEmail: #9D1AB1;
+$tacticColorEmailBkg: #DD79EB;
+$tacticColorSocialMedia: #3D4DB7;
+$tacticColorSocialMediaBkg: #8D97D9;
+$tacticColorCollateral: #00A6F6;
+$tacticColorCollateralBkg: #67CDFF;
+$tacticColorDirectMail: #009687;
+$tacticColorDirectMailBkg: #7CE4DA;
+$tacticColorPR: #46AF4A;
+$tacticColorPRBkg: #91D395;
+$tacticColorAdvertisingAssets: #FF5505; //original color moved to signage, advertising assets now shares color with paid media
+$tacticColorAdvertisingAssetsBkg: #FF9767;
+$tacticColorPaidMedia: #FF5505;
+$tacticColorPaidMediaBkg: #FF9767;
+$tacticColorSignage: #FFC100;
+$tacticColorSignageBkg: #FFD967;
+
+$nestedBkgColorOffset: 0.6;
+
+//Misc Variables
+$globalNavWidth: 15%;
+$navCollapseButtonWidth: 3.2rem;

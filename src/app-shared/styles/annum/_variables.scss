@@ -1,0 +1,157 @@
+// Theme Specific Variables
+$primaryColor: #000000;
+$primaryDarkColor: #333333;
+$primaryDarkerColor: #666666;
+$primaryTextColor: #ffffff;
+
+// Mandatory Designer Variables
+@import './variables/general';
+@import './variables/form';
+@import './variables/button';
+@import './variables/panel';
+@import './variables/_data';
+@import './variables/_overlay';
+@import './variables/_message';
+@import './variables/_menu';
+@import './variables/_media';
+@import './variables/_misc';
+
+:root {
+  --surface-a: #ffffff;
+  --surface-b: #f8f9fa;
+  --surface-c: #e9ecef;
+  --surface-d: #dee2e6;
+  --surface-e: #ffffff;
+  --surface-f: #ffffff;
+  --text-color: #333333;
+  --text-color-secondary: #666666;
+  --primary-color: #000000;
+  --primary-color-text: #ffffff;
+  --font-family: 'MulishSemibold', Helvetica, Arial, sans-serif;
+}
+
+//Typography Mixins
+@mixin font-mulish {
+  font-family: 'MulishSemibold', Helvetica, Arial, sans-serif;
+}
+@mixin font-light {
+  font-family: 'MulishSemibold', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@mixin font-normal {
+  font-family: 'MulishSemibold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin font-bold {
+  font-family: 'MulishBold', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+@mixin font-italic {
+  font-family: 'MulishSemiboldItalic', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+@mixin font-mulish-regular {
+  font-family: 'MulishRegular', Helvetica, Arial, sans-serif;
+}
+@mixin font-mulish-light {
+  font-family: 'MulishLight', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@mixin font-playfair-regular {
+  font-family: 'PlayfairDisplay', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@mixin font-playfair-regular-italic {
+  font-family: 'PlayfairDisplayRegularItalic', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+@mixin font-playfair-medium {
+  font-family: 'PlayfairDisplayMedium', serif;
+  font-style: normal;
+  font-weight: 500;
+}
+@mixin font-playfair-medium-italic {
+  font-family: 'PlayfairDisplayMediumItalic', serif;
+  font-style: italic;
+  font-weight: 500;
+}
+@mixin font-playfair-bold {
+  font-family: 'PlayfairDisplayBold', serif;
+  font-style: normal;
+  font-weight: 700;
+}
+@mixin font-playfair-bold-italic {
+  font-family: 'PlayfairDisplayBoldItalic', serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@supports (font-variation-settings: normal) {
+  @mixin font-mulish {
+    font-family: 'MulishVariable', Helvetica, Arial, sans-serif;
+  }
+  @mixin font-light {
+    font-family: 'MulishVariable', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variation-settings: 'wght' 500;
+  }
+  @mixin font-normal {
+    font-family: 'MulishVariable', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variation-settings: 'wght' 600;
+  }
+  @mixin font-bold {
+    font-family: 'MulishVariable', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variation-settings: 'wght' 700;
+  }
+  @mixin font-italic {
+    font-family: 'MulishVariable', Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-variation-settings: 'wght' 600;
+  }
+  @mixin font-mulish-regular {
+    font-family: 'MulishRegular', Helvetica, Arial, sans-serif;
+  }
+  @mixin font-mulish-light {
+    font-family: 'MulishLight', Helvetica, Arial, sans-serif;
+    font-style: normal;
+  }
+  @mixin font-playfair-regular {
+    font-family: 'PlayfairDisplayVariable', serif;
+    font-style: normal;
+    font-variation-settings: 'wght' 400;
+  }
+  @mixin font-playfair-regular-italic {
+    font-family: 'PlayfairDisplayVariableItalic', serif;
+    font-style: italic;
+    font-variation-settings: 'wght' 400;
+  }
+  @mixin font-playfair-medium {
+    font-family: 'PlayfairDisplayVariable', serif;
+    font-style: normal;
+    font-variation-settings: 'wght' 500;
+  }
+  @mixin font-playfair-medium-italic {
+    font-family: 'PlayfairDisplayVariableItalic', serif;
+    font-style: italic;
+    font-variation-settings: 'wght' 500;
+  }
+  @mixin font-playfair-bold {
+    font-family: 'PlayfairDisplayVariable', serif;
+    font-style: normal;
+    font-variation-settings: 'wght' 700;
+  }
+  @mixin font-playfair-bold-italic {
+    font-family: 'PlayfairDisplayVariableItalic', serif;
+    font-style: italic;
+    font-variation-settings: 'wght' 700;
+  }
+}

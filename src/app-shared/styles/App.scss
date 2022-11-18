@@ -1,0 +1,138 @@
+@import 'annum/theme';
+@import 'imports';
+
+//Base Typography
+a {
+  text-decoration: none;
+}
+.text-link {
+  color: #0074daff !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+.invisible-text {
+  opacity: 0;
+}
+
+//Logged out views (LogIn, PasswordForgot, PasswordChange)
+.logged-out-container {
+  width: 100vw;
+  height: 100vh;
+}
+.logged-out-form {
+  width: fit-content;
+  text-align: center;
+
+  .p-field {
+    margin-top: 1.75rem;
+    margin: 1.75rem auto 1rem;
+  }
+}
+
+//Modals
+.p-dialog {
+  min-width: 30rem;
+  max-width: 100rem;
+
+  .p-dialog-header {
+    padding: 2.4rem;
+    background-color: #fcfcfc;
+    border-bottom: 0;
+
+    h2 {
+      margin: 0;
+    }
+    .p-dialog-title {
+      font-size: 2rem;
+      line-height: 2.4rem;
+    }
+  }
+  .p-dialog-content {
+    padding: 1rem 2.4rem 2.4rem;
+  }
+}
+
+//Confirmation popups
+.p-confirm-popup {
+  max-width: 24rem;
+  text-align: center;
+}
+
+//DataTables with no data
+.p-datatable {
+  .empty-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 8rem;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 0;
+    }
+  }
+}
+
+//Badges in Buttons
+.p-button {
+  .p-badge {
+    font-size: 1.1rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.onboarding-button-style {
+  @include font-mulish-light;
+  font-size: 16px !important;
+  width: 162px !important;
+  height: 36px !important;
+}
+
+// Screen blocker for small viewports
+.small-viewport-blocker {
+  display: none;
+}
+@media (max-width: 800px), (max-height: 500px) {
+  .small-viewport-blocker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: #fff;
+
+    img {
+      width: 28rem;
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      max-width: 50rem;
+      text-align: center;
+    }
+  }
+}

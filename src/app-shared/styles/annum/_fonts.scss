@@ -1,0 +1,72 @@
+// Configuration for the font-face of the theme, defaults to the system font so left as blank
+
+//Define fonts
+@font-face {
+  font-family: 'MulishVariable';
+  src: url('/fonts/Mulish-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MulishVariableItalic';
+  src: url('/fonts/Mulish-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'MulishSemibold';
+  src: url('/fonts/Mulish-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MulishSemiboldItalic';
+  src: url('/fonts/Mulish-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MulishBold';
+  src: url('/fonts/Mulish-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MulishBoldItalic';
+  src: url('/fonts/Mulish-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MulishLight';
+  src: url('/fonts/Mulish-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MulishRegular';
+  src: url('/fonts/Mulish-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplayVariable';
+  src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplayVariableItalic';
+  src: url('/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url('/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplayRegularItalic';
+  src: url('/fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplayMedium';
+  src: url('/fonts/PlayfairDisplay-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplayMediumItalic';
+  src: url('/fonts/PlayfairDisplay-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplayBold';
+  src: url('/fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplayBoldItalic';
+  src: url('/fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+}
